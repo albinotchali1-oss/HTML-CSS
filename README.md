@@ -1,3 +1,3 @@
-# HTML5 e CSS3
+# HTML e CSS
 ---
 Curso completo de HTML a CSS
