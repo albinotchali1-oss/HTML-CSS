@@ -1,0 +1,25 @@
+@charset "UTF-8";
+.conteiner {
+    display: grid;
+    grid-template: repeat(3,100px) / repeat(4,1fr);
+    gap: 10px;
+    color: #444;
+    border: 3px solid #0004ff;
+}
+
+.item1, .item2{
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.item1 {
+    background-color: #8ca0ff;
+    grid-row: 1 / span 3;
+    grid-column: 1 / span 2;
+}
+.item2 {
+    background-color: #ffe28c;
+    grid-row: 1 / span 3;
+    grid-column: 3 / span 2;
+}
